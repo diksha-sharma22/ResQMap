@@ -324,7 +324,6 @@ python -m uvicorn app.main:app --reload
 ### "Dashboard shows no weather alerts"
 ```bash
 # Check HERE_API_KEY in backend/.env
-# Make sure it's: e8lygiADBgeCaJQXzBQfye6L1lFSrXp5km7f205iJaA
 # Restart backend after adding
 ```
 
