@@ -100,10 +100,6 @@ VITE_API_URL=http://localhost:8000
 VITE_HERE_API_KEY=your_here_api_key  # Optional - not required for demo
 ```
 
-**For hackathon demo:** No `.env` files needed! Everything works with defaults.
-
 ## API Documentation
 Once the backend is running, visit: http://localhost:8000/docs
 
-## License
-MIT License
