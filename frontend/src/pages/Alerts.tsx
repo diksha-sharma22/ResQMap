@@ -77,6 +77,11 @@ const Alerts = () => {
     toast('Weather alerts are always live and current', { icon: 'ℹ️' })
   }
 
+  const handleMarkAllRead = () => {
+    // Live weather alerts don't have archive functionality
+    toast('Live alerts cannot be archived', { icon: 'ℹ️' })
+  }
+
   const getSeverityColor = (severity: string) => {
     switch (severity.toLowerCase()) {
       case 'critical':

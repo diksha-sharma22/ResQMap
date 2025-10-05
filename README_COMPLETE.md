@@ -22,8 +22,8 @@ npm run dev
 ```
 
 ### Login
-- **Email**: `john.doe@emergency.gov`
-- **Password**: `demo123`
+- **Email**: `admin@emergency`
+- **Password**: `Admin#123`
 
 ---
 
