@@ -18,7 +18,7 @@ def seed_database():
             email="admin@emergency",
             first_name="Admin",
             last_name="User",
-            hashed_password=get_password_hash("Admin#123"),
+            hashed_password=get_password_hash("xyz"),
             organization="Emergency Management Agency",
             role="System Administrator",
             phone_number="+1 (555) 123-4567",
