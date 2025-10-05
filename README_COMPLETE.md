@@ -21,10 +21,6 @@ npm install
 npm run dev
 ```
 
-### Login
-- **Email**: `admin@emergency`
-- **Password**: `Admin#123`
-
 ---
 
 ## HERE Weather API Setup
@@ -103,14 +99,6 @@ GET /api/weather/current           # Current weather
 - ✅ Traffic incidents (accidents, closures)
 - ✅ Current weather conditions
 - ✅ Click "Refresh Data" to update
-
-### What's from Database (Historical)
-- 📝 Disaster impact reports
-- 📝 Evacuation data
-- 📝 Infrastructure damage
-- 📝 Casualty reports
-
-**Both complement each other!**
 
 ---
 
@@ -199,13 +187,6 @@ VITE_API_URL=http://localhost:8000
 - Map centered on India
 - Dynamic dashboard stats
 
-### ❌ Removed
-- Time evolution widget (not useful)
-- Road status layer (not available from HERE)
-- Export map button (non-functional)
-- US/Florida demo data
-
----
 
 ## Troubleshooting
 
@@ -273,4 +254,4 @@ For issues or questions, check:
 
 ---
 
-**You're all set! 🎉 Start with `python -m uvicorn app.main:app --reload` in backend and `npm run dev` in frontend.**
+Start with `python -m uvicorn app.main:app --reload` in backend and `npm run dev` in frontend.**
