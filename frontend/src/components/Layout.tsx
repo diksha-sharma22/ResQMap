@@ -12,6 +12,7 @@ import {
   CloudSun
 } from 'lucide-react'
 import { useAuthStore } from '../store/authStore'
+import Chatbot from './Chatbot'
 
 interface LayoutProps {
   children: ReactNode
@@ -113,7 +114,7 @@ const Layout = ({ children }: LayoutProps) => {
       {/* Mobile sidebar overlay */}
       {sidebarOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
+          className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
           onClick={() => setSidebarOpen(false)}
         />
       )}
@@ -135,6 +136,9 @@ const Layout = ({ children }: LayoutProps) => {
           {children}
         </main>
       </div>
+
+      {/* Chatbot - positioned globally */}
+      <Chatbot />
     </div>
   )
 }

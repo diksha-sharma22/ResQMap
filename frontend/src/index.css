@@ -43,3 +43,25 @@
   width: 100%;
   height: 100%;
 }
+
+/* Fix for chatbot visual artifacts */
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Ensure no unwanted borders on chatbot elements */
+.chatbot-container button {
+  border: none !important;
+  outline: none !important;
+}
+
+.chatbot-container button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}

@@ -4,7 +4,7 @@ from fastapi.responses import JSONResponse
 import uvicorn
 from contextlib import asynccontextmanager
 
-from app.api import dashboard, maps, alerts, reports, settings, auth, weather
+from app.api import dashboard, maps, alerts, reports, settings, auth, weather, chatbot, intelligent_agent, telemetry
 from app.core.config import settings as app_settings
 from app.core.websocket_manager import manager
 from app.db.database import engine, Base
@@ -45,6 +45,9 @@ app.include_router(alerts.router, prefix="/api/alerts", tags=["Alerts"])
 app.include_router(reports.router, prefix="/api/reports", tags=["Reports"])
 app.include_router(settings.router, prefix="/api/settings", tags=["Settings"])
 app.include_router(weather.router, prefix="/api/weather", tags=["Weather"])
+app.include_router(chatbot.router, prefix="/api/chatbot", tags=["Chatbot"])
+app.include_router(intelligent_agent.router, prefix="/api/ai", tags=["Intelligent AI"])
+app.include_router(telemetry.router, prefix="/api/telemetry", tags=["Telemetry"])
 
 
 @app.get("/")
