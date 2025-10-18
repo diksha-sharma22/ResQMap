@@ -90,7 +90,7 @@ const Dashboard = () => {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold text-gray-900">Emergency Dashboard</h1>
-          <p className="text-gray-500 mt-1">Real-time disaster intelligence and response coordination</p>
+          {/* <p className="text-gray-500 mt-1">Real-time disaster intelligence and response coordination</p> */}
         </div>
         <button 
           onClick={handleRefresh}

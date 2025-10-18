@@ -49,7 +49,7 @@ const Layout = ({ children }: LayoutProps) => {
             </div>
             <div>
               <h1 className="text-lg font-bold text-gray-900">ResQMap</h1>
-              <p className="text-xs text-gray-500">Emergency Response System</p>
+              <p className="text-xs text-gray-500">Disaster Intelligence Mapping Platform</p>
             </div>
           </div>
 
